@@ -134,6 +134,7 @@ void windowinit(){
                 playing=true;
             if(GetAsyncKeyState(VK_SPACE))
                 running=false;
+            Sleep(1000);
         }
     }
 }
